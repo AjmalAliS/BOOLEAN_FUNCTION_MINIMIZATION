@@ -13,10 +13,9 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 Hardware – PCs, Cyclone II , USB flasher
 
 **Software – Quartus prime**
+![WhatsApp Image 2024-10-14 at 2 06 00 PM](https://github.com/user-attachments/assets/b3ee66d1-0102-4364-ab9d-f4541feaccfd)
 
 **Theory**
-
-**Logic Diagram**
 
 **Procedure**
 
@@ -32,19 +31,24 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-
+module expl1(w,x,y,z,f2);
+input w,x,y,z;
+output f2;
+assign f2=((~y&z)|(x&y)|(w&y));
+endmodule
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+Developed by: RegisterNumber:*/24009653
 
 
 **RTL realization**
+![WhatsApp Image 2024-11-04 at 1 50 01 PM](https://github.com/user-attachments/assets/04a4777a-5e80-426c-b236-eb4477ff55a3)
+![WhatsApp Image 2024-11-04 at 1 50 34 PM](https://github.com/user-attachments/assets/ad854c1d-4d34-4a68-96c9-ad20509ab043)
 
-**Output:**
-
-**RTL**
 
 **Timing Diagram**
+![WhatsApp Image 2024-11-04 at 1 51 12 PM](https://github.com/user-attachments/assets/d6c0f325-dd3e-4d59-a70d-65bf39f15a02)
+![WhatsApp Image 2024-11-04 at 1 51 25 PM](https://github.com/user-attachments/assets/9ebacb35-e60a-45ca-9edd-d9650844e8e8)
 
 **Result:**
 
